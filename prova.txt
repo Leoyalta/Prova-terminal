@@ -1,0 +1,119 @@
+Last login: Fri Jul 12 09:27:45 on ttys030
+➜  ~ pwd
+/Users/leo
+➜  ~ ls
+Applications Documents    Library      Music        Projects
+Desktop      Downloads    Movies       Pictures     Public
+➜  ~ cd /Users/leo/Documents
+➜  Documents pwd
+/Users/leo/Documents
+➜  Documents mkdir Prova     
+➜  Documents pwd
+/Users/leo/Documents
+➜  Documents /Users/leo/Documents/Prova
+➜  Prova pwd
+/Users/leo/Documents/Prova
+➜  Prova ..
+➜  Documents pwd
+/Users/leo/Documents
+➜  Documents ..
+➜  ~ pwd
+/Users/leo
+➜  ~ cd /Users/leo/Documents/Prova
+➜  Prova ..
+➜  Documents perProva
+zsh: command not found: perProva
+➜  Documents cd perProva
+cd: no such file or directory: perProva
+➜  Documents cd /Users/leo/Documents/Provmkdi 
+cd: no such file or directory: /Users/leo/Documents/Provmkdi
+➜  Documents mkdir perProva
+➜  Documents cd /Users/leo/Documents/perProva  
+➜  perProva pwd
+/Users/leo/Documents/perProva
+➜  perProva echo es un file nuevo > newfile.txt
+➜  perProva pwd
+/Users/leo/Documents/perProva
+➜  perProva ls
+newfile.txt
+➜  perProva cp
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+➜  perProva cp -r /Users/leo/Documents/Prova    
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+➜  perProva pwd
+/Users/leo/Documents/perProva
+➜  perProva ls
+newfile.txt
+➜  perProva ..
+➜  Documents pwd
+/Users/leo/Documents
+➜  Documents cd /Users/leo/Documents/Prova
+➜  Prova ls
+➜  Prova зцв
+zsh: command not found: зцв
+➜  Prova pwd
+/Users/leo/Documents/Prova
+➜  Prova cd /Users/leo/Documents/perProva
+➜  perProva ls
+newfile.txt
+➜  perProva mv ~/Downloads/example.txt ~/Documents/Prova 
+mv: rename /Users/leo/Downloads/example.txt to /Users/leo/Documents/Prova/example.txt: No such file or directory
+➜  perProva ls
+newfile.txt
+➜  perProva mv ~/Downloads/newfile.txt ~/Documents/Prova 
+mv: rename /Users/leo/Downloads/newfile.txt to /Users/leo/Documents/Prova/newfile.txt: No such file or directory
+➜  perProva  mv ~/Downloads/newfile.txt ~/Documents/Prova 
+mv: rename /Users/leo/Downloads/perProva/newfile.txt to /Users/leo/Documents/Prova       
+mv: rename /Users/leo/Downloads/newfile.txt to /Users/leo/Documents/Prova/newfile.txt: No such file or directory
+zsh: command not found: mv:
+➜  perProva ls
+newfile.txt
+➜  perProva mv ~/Downloads/perProva/newfile.txt ~/Documents/Prova
+mv: rename /Users/leo/Downloads/perProva/newfile.txt to /Users/leo/Documents/Prova/newfile.txt: No such file or directory
+➜  perProva ls
+newfile.txt
+➜  perProva mv example.txt ~/Documents/Prova
+mv: rename example.txt to /Users/leo/Documents/Prova/example.txt: No such file or directory
+➜  perProva mv newfile.txt ~/Documents/Prova 
+➜  perProva ..
+➜  Documents cd /Document/Prova
+cd: no such file or directory: /Document/Prova
+➜  Documents pwd
+/Users/leo/Documents
+➜  Documents cd /Users/leo/Documents/Prova
+➜  Prova pwd
+/Users/leo/Documents/Prova
+➜  Prova ls
+newfile.txt
+➜  Prova ls
+newfile.txt
+➜  Prova mv newfile.txt newname.txt 
+➜  Prova ls
+newname.txt
+➜  Prova mv newname.txt ~/Documents/perProva
+➜  Prova ls
+➜  Prova rmdir empty_directory
+rmdir: empty_directory: No such file or directory
+➜  Prova rmdir /Users/leo/Documents/Prova
+➜  Prova pwd
+/Users/leo/Documents/Prova
+➜  Prova ..
+zsh: permission denied: ..
+➜  Prova pwd
+/Users/leo/Documents/Prova
+➜  Prova ..
+zsh: permission denied: ..
+➜  Prova pwd
+/Users/leo/Documents/Prova
+➜  Prova ..
+zsh: permission denied: ..
+➜  Prova pwd
+/Users/leo/Documents/Prova
+➜  Prova ls
+➜  Prova cd /Users/leo/Documents/perProva
+➜  perProva pwd
+/Users/leo/Documents/perProva
+➜  perProva ls
+newname.txt
